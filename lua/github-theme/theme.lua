@@ -27,8 +27,8 @@ theme.setup = function(cfg)
     CursorColumn = { link = 'CursorColumn' }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
     Directory = { fg = c.blue }, -- directory names (and other special names in listings)
     DiffAdd = { bg = c.diff.add }, -- diff mode: Added line |diff.txt|
-    DiffChange = { fg = c.diff.change_fg, bg = c.diff.change }, -- diff mode: Changed line |diff.txt|
-    DiffDelete = { fg = c.diff.delete_fg, bg = c.diff.delete }, -- diff mode: Deleted line |diff.txt|
+    DiffChange = { bg = c.diff.change }, -- diff mode: Changed line |diff.txt|
+    DiffDelete = { bg = c.diff.delete }, -- diff mode: Deleted line |diff.txt|
     DiffText = { fg = c.fg_gutter }, -- diff mode: Changed text within a changed line |diff.txt|
     EndOfBuffer = { fg = c.eob }, -- filler lines (~) after the end of the buffer.  By default, this is highlighted like |hl-NonText|.
     -- TermCursor  = { }, -- cursor in a focused terminal
@@ -576,8 +576,8 @@ theme.setup = function(cfg)
 
     -- DiffView
     DiffAdd = { bg = c.diff.add },
-    DiffChange = { fg = c.diff.change_fg, bg = c.diff.change },
-    DiffDelete = { fg = c.diff.delete_fg, bg = c.diff.delete },
+    DiffChange = { bg = c.diff.change },
+    DiffDelete = { bg = c.diff.delete },
     DiffText = { link = 'DiffChange' },
     DiffviewFilePanelFileName = { fg = c.fg_light },
 

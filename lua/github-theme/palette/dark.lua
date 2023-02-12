@@ -46,9 +46,9 @@ return function()
     diff = {
       add = '#294436',
       add_fg = '#56d364',
-      change = '#341a00',
+      change = '#385570',
       change_fg = '#e3b341',
-      delete = '#462c32',
+      delete = '#484A4A',
       delete_fg = '#f85149',
     },
 
