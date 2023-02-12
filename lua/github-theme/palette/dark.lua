@@ -44,7 +44,7 @@ return function()
       renamed = '#73c991',
     },
     diff = {
-      add = '#244032',
+      add = '#294436',
       add_fg = '#56d364',
       change = '#341a00',
       change_fg = '#e3b341',

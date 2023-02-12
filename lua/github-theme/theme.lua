@@ -26,7 +26,7 @@ theme.setup = function(cfg)
     CursorLine = { bg = c.bg_highlight }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
     CursorColumn = { link = 'CursorColumn' }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
     Directory = { fg = c.blue }, -- directory names (and other special names in listings)
-    DiffAdd = { fg = c.diff.add_fg, bg = c.diff.add }, -- diff mode: Added line |diff.txt|
+    DiffAdd = { bg = c.diff.add }, -- diff mode: Added line |diff.txt|
     DiffChange = { fg = c.diff.change_fg, bg = c.diff.change }, -- diff mode: Changed line |diff.txt|
     DiffDelete = { fg = c.diff.delete_fg, bg = c.diff.delete }, -- diff mode: Deleted line |diff.txt|
     DiffText = { fg = c.fg_gutter }, -- diff mode: Changed text within a changed line |diff.txt|
@@ -575,7 +575,7 @@ theme.setup = function(cfg)
     CocMenuSel = { link = 'PmenuSel' },
 
     -- DiffView
-    DiffAdd = { fg = c.diff.add_fg, bg = c.diff.add },
+    DiffAdd = { bg = c.diff.add },
     DiffChange = { fg = c.diff.change_fg, bg = c.diff.change },
     DiffDelete = { fg = c.diff.delete_fg, bg = c.diff.delete },
     DiffText = { link = 'DiffChange' },
