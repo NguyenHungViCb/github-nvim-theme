@@ -236,7 +236,7 @@ theme.setup = function(cfg)
     -- TSRepeat            = { };    -- For keywords related to loops.
     ['@string'] = { fg = c.syntax.string }, -- For strings.
     ['@string.regex'] = { fg = c.syntax.variable }, -- For regexes.
-    ['@string.escape'] = { fg = c.red }, -- For escape characters within a string.
+    ['@string.escape'] = { fg = c.syntax.keyword }, -- For escape characters within a string.
     -- TSSymbol            = { };    -- For identifiers referring to symbols or atoms.
     ['@type'] = { fg = c.syntax.func }, -- For types.
     -- TSTypeBuiltin       = { };    -- For builtin types.
