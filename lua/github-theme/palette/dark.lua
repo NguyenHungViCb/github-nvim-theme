@@ -55,12 +55,12 @@ return function()
     -- Syntax Colors
     syntax = {
       comment = '#6a737d',
-      constant = '#79b8ff',
-      string = '#9ecbff',
+      constant = '#9876AA',
+      string = '#6A8759',
       variable = '#79b8ff',
-      keyword = '#f97583',
-      func = '#b392f0',
-      func_param = '#e1e4e8',
+      keyword = '#CC7832',
+      func = '#FFC66D',
+      func_param = '#A9B7C6',
       match_paren_bg = '#25686c',
       tag = '#85e89d',
       html_arg = '#fdaeb7',
