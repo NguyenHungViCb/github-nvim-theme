@@ -84,7 +84,7 @@ theme.setup = function(cfg)
     -- Uncomment and edit if you want more specific syntax highlighting.
 
     Comment = { fg = c.syntax.comment, style = cfg.comment_style }, -- any comment
-    Constant = { fg = c.syntax.constant, style = Styles.Bold }, -- (preferred) any constant
+    Constant = { fg = c.syntax.constant }, -- (preferred) any constant
     String = { fg = c.syntax.string }, --   a string constant: "this is a string"
     Character = { fg = c.syntax.variable }, --  a character constant: 'c', '\n'
     -- Number        = { }, --   a number constant: 234, 0xff
@@ -241,7 +241,7 @@ theme.setup = function(cfg)
     ['@type'] = { fg = c.syntax.func }, -- For types.
     -- TSTypeBuiltin       = { };    -- For builtin types.
     ['@variable'] = { fg = c.syntax.variable, style = cfg.variable_style }, -- Any variable name that does not have another highlight.
-    ['@variable.builtin'] = { fg = c.syntax.variable }, -- Variable names that are defined by the languages, like `this` or `self`.
+    ['@variable.builtin'] = { fg = c.syntax.constant }, -- Variable names that are defined by the languages, like `this` or `self`.
     ['@tag'] = { fg = c.syntax.tag }, -- Tags like html tag names.
     ['@tag.delimiter'] = { fg = c.fg }, -- Tag delimiter like `<` `>` `/`
     ['@text'] = { fg = c.fg }, -- For strings considered text in a markup language.
