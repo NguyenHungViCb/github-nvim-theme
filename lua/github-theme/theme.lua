@@ -36,7 +36,7 @@ theme.setup = function(cfg)
     ErrorMsg = { fg = c.error }, -- error messages on the command line
     VertSplit = { fg = c.bg_visual, bg = cfg.transparent and c.none or c.bg }, -- the column separating vertically split windows
     Folded = { fg = c.fg, bg = c.bg_visual_selection }, -- line used for closed folds
-    FoldColumn = { link = 'Folded' }, -- 'foldcolumn'
+    FoldColumn = { bg = c.bg }, -- 'foldcolumn'
     SignColumn = { fg = c.fg_gutter, bg = cfg.transparent and c.none or c.bg }, -- column where |signs| are displayed
     SignColumnSB = { fg = c.fg_gutter, bg = c.bg_sidebar }, -- column where |signs| are displayed
     Substitute = { fg = c.black, bg = c.red }, -- |:substitute| replacement text highlighting
