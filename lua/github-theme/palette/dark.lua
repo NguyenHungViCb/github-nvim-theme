@@ -2,18 +2,18 @@ return function()
   ---@type gt.ColorPalette
   local palette = {
     -- Background Colors
-    bg = '#24292e',
-    bg2 = '#1f2428',
+    bg = '#1E1F22',
+    bg2 = '#2B2D30',
 
     -- Foreground Colors
-    fg = '#c9d1d9',
+    fg = '#A9B7C6',
     fg_dark = '#666666',
     fg_gutter = '#e1e4e8',
     fg_light = '#d1d5da',
     fg_term = '#d1d5da',
 
     -- Background Highlights Colors
-    bg_highlight = '#2c313a',
+    bg_highlight = '#2B2D30',
     bg_search = '#404030',
     bg_visual = '#444c56',
     bg_visual_selection = '#284566',
