@@ -84,7 +84,7 @@ theme.setup = function(cfg)
     -- Uncomment and edit if you want more specific syntax highlighting.
 
     Comment = { fg = c.syntax.comment, style = cfg.comment_style }, -- any comment
-    Constant = { fg = c.syntax.constant }, -- (preferred) any constant
+    Constant = { fg = c.syntax.constant, style = Styles.Bold }, -- (preferred) any constant
     String = { fg = c.syntax.string }, --   a string constant: "this is a string"
     Character = { fg = c.syntax.variable }, --  a character constant: 'c', '\n'
     -- Number        = { }, --   a number constant: 234, 0xff
