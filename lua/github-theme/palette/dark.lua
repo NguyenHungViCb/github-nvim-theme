@@ -54,18 +54,20 @@ return function()
 
     -- Syntax Colors
     syntax = {
+      constructor = '#29b098',
       comment = '#6a737d',
       constant = '#9876AA',
       string = '#6A8759',
-      variable = '#79b8ff',
+      variable = '#A9B7C6',
       keyword = '#CC7832',
       func = '#FFC66D',
       func_param = '#A9B7C6',
       match_paren_bg = '#25686c',
-      tag = '#85e89d',
+      tag = '#E8BF6A',
+      tagAttribute = '#A9B7C6',
       html_arg = '#fdaeb7',
       param = '#ffab70',
-      json_label = '#79b8ff',
+      json_label = '#9876AA',
     },
 
     -- Terminal Colors

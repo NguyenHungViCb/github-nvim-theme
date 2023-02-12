@@ -204,7 +204,7 @@ theme.setup = function(cfg)
     ['@note'] = { fg = c.bg, bg = c.info },
     ['@warning'] = { fg = c.bg, bg = c.warning },
     ['@danger'] = { fg = c.bg, bg = c.error },
-    ['@constructor'] = { fg = c.syntax.variable }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
+    ['@constructor'] = { fg = c.syntax.constructor }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
     -- TSConditional       = { };    -- For keywords related to conditionnals.
     ['@constant'] = { fg = c.syntax.constant }, -- For constants
     ['@constant.comment'] = { fg = c.syntax.keyword },
@@ -228,6 +228,7 @@ theme.setup = function(cfg)
     ['@operator'] = { fg = c.syntax.keyword }, -- For any operator: `+`, but also `->` and `*` in C.
     ['@parameter'] = { fg = c.syntax.func_param }, -- For parameters of a function.
     -- TSParameterReference= { };    -- For references to parameters of a function.
+    ['@tag.attribute'] = { fg = c.syntax.tagAttribute },
     ['@property'] = { fg = c.syntax.func }, -- Same as `TSField`.
     ['@punctDelimiter'] = { fg = c.fg }, -- For delimiters ie: `.`
     ['@punctBracket'] = { fg = c.fg }, -- For brackets and parens.
