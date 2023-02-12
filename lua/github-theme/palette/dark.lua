@@ -78,7 +78,7 @@ return function()
     bright_white = '#fafbfc',
     red = '#ea4a5a',
     bright_red = '#f97583',
-    green = '#34d058',
+    green = '#5C962C',
     bright_green = '#85e89d',
     yellow = '#ffea7f',
     bright_yellow = '#ffea7f',
