@@ -229,7 +229,7 @@ theme.setup = function(cfg)
     ['@parameter'] = { fg = c.syntax.func_param }, -- For parameters of a function.
     -- TSParameterReference= { };    -- For references to parameters of a function.
     ['@tag.attribute'] = { fg = c.syntax.tagAttribute },
-    ['@property'] = { fg = c.syntax.func }, -- Same as `TSField`.
+    ['@property'] = { fg = c.syntax.constant }, -- Same as `TSField`.
     ['@punctDelimiter'] = { fg = c.fg }, -- For delimiters ie: `.`
     ['@punctBracket'] = { fg = c.fg }, -- For brackets and parens.
     ['@punctSpecial'] = { fg = c.fg }, -- For special punctutation that does not fall in the catagories before.
