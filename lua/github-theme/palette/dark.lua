@@ -64,7 +64,7 @@ return function()
       func_param = '#A9B7C6',
       match_paren_bg = '#25686c',
       tag = '#E8BF6A',
-      tagAttribute = '#A9B7C6',
+      tagAttribute = '#aaaaab',
       html_arg = '#fdaeb7',
       param = '#ffab70',
       json_label = '#9876AA',
