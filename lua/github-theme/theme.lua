@@ -206,7 +206,7 @@ theme.setup = function(cfg)
     ['@danger'] = { fg = c.bg, bg = c.error },
     ['@constructor'] = { fg = c.syntax.constructor }, -- For constructor calls and definitions: `= { }` in Lua, and Java constructors.
     -- TSConditional       = { };    -- For keywords related to conditionnals.
-    ['@constant'] = { fg = c.syntax.constant }, -- For constants
+    ['@constant'] = { fg = c.syntax.constant, style = Styles.Bold }, -- For constants
     ['@constant.comment'] = { fg = c.syntax.keyword },
     -- TSConstBuiltin      = { };    -- For constant that are built in the language: `nil` in Lua.
     -- TSConstMacro        = { };    -- For constants that are defined by macros: `NULL` in C.
@@ -238,7 +238,7 @@ theme.setup = function(cfg)
     ['@string.regex'] = { fg = c.syntax.variable }, -- For regexes.
     ['@string.escape'] = { fg = c.red }, -- For escape characters within a string.
     -- TSSymbol            = { };    -- For identifiers referring to symbols or atoms.
-    ['@type'] = { fg = c.syntax.keyword }, -- For types.
+    ['@type'] = { fg = c.syntax.func }, -- For types.
     -- TSTypeBuiltin       = { };    -- For builtin types.
     ['@variable'] = { fg = c.syntax.variable, style = cfg.variable_style }, -- Any variable name that does not have another highlight.
     ['@variable.builtin'] = { fg = c.syntax.variable }, -- Variable names that are defined by the languages, like `this` or `self`.
